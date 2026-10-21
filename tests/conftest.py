@@ -1,0 +1,5 @@
+from sentiment_trader.cli import LABELLED_TWEETS as _LABELLED_TWEETS
+from sentiment_trader.cli import NASDAQ_FEATURES as _NASDAQ_FEATURES
+
+LABELLED_TWEETS = str(_LABELLED_TWEETS)
+NASDAQ_FEATURES = str(_NASDAQ_FEATURES)
